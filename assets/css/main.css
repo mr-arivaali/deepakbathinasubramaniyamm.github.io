@@ -3800,6 +3800,19 @@
 			margin: 0 auto;
 			width: 80em;
 		}
+		#footer p {
+			color: rgba(255, 255, 255, 0.65);
+			font-size: 1.5em;
+						
+			overflow-wrap: break-word;
+  			word-wrap: break-word;
+
+ 			 /* Adds a hyphen where the word breaks */
+  			-webkit-hyphens: auto;
+  			-ms-hyphens: auto;
+  			-moz-hyphens: auto;
+ 			 hyphens: auto;
+		}
 
 		#footer .copyright {
 			color: #676d71;
