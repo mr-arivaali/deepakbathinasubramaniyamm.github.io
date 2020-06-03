@@ -6,10 +6,15 @@
 	"start_url" : "https://stensoftacademy.github.io/",
 	"short_name" : "Stensoft Academy YouTube Channel",
 	"icons": [
-    {
-      "src": "STENSOFT.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    }
+	{
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        }
   ]
 }
