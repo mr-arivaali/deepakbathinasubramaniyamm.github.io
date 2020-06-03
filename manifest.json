@@ -5,4 +5,11 @@
 	"orientation" : "portrait",
 	"start_url" : "https://stensoftacademy.github.io/"
 	"short_name" : "SAYT"
+	"icons": [
+    {
+      "src": "STENSOFT.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  
 }
