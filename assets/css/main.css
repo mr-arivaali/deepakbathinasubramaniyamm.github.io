@@ -3674,6 +3674,21 @@
 			opacity: 1;
 			position: relative;
 			z-index: 2;
+			color: #c0c5c9;
+			/* Careful, this breaks the word wherever it is without a hyphen */
+	 		overflow-wrap: break-word;
+	 		word-wrap: break-word;
+
+	 		/* Adds a hyphen where the word breaks */
+	 		-webkit-hyphens: auto;
+	  		-ms-hyphens: auto;
+	 		-moz-hyphens: auto;
+	 		hyphens: auto;
+
+			padding: 1.5em;
+			font-size: 1.25em;
+			font-weight: 300;
+			margin: 0;
 		}
 
 		#banner h1 {
