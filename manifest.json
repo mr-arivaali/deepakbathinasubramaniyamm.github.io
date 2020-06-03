@@ -4,7 +4,7 @@
 	"display" : "fullscreen",
 	"orientation" : "portrait",
 	"start_url" : "https://stensoftacademy.github.io/",
-	"short_name" : "SAYT",
+	"short_name" : "Stensoft Academy YouTube Channel",
 	"icons": [
     {
       "src": "STENSOFT.png",
