@@ -3,6 +3,9 @@
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
+navigator.serviceWorker && navigator.serviceWorker.register('./sw.js').then(function(registration) {
+  console.log('Excellent, registered with scope: ', registration.scope);
+});
 
 (function($) {
 
