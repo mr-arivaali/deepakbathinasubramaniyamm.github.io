@@ -3806,17 +3806,6 @@
 			width: 80em;
 		}
 
-		#footer .hyphenate  {
-			overflow-wrap: break-word;
- 			word-wrap: break-word;
-
-  			/* Adds a hyphen where the word breaks */
-  			-webkit-hyphens: auto;
-  			-ms-hyphens: auto;
-  			-moz-hyphens: auto;
-  			hyphens: auto;		
-			}
-
 		#footer .copyright {
 			color: #676d71;
 			font-size: 0.9em;
