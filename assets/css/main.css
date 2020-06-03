@@ -3675,16 +3675,6 @@
 			position: relative;
 			z-index: 2;
 			color: #c0c5c9;
-			/* Careful, this breaks the word wherever it is without a hyphen */
-	 		overflow-wrap: break-word;
-	 		word-wrap: break-word;
-
-	 		/* Adds a hyphen where the word breaks */
-	 		-webkit-hyphens: auto;
-	  		-ms-hyphens: auto;
-	 		-moz-hyphens: auto;
-	 		hyphens: auto;
-
 			padding: 1.5em;
 			font-size: 1.25em;
 			font-weight: 300;
@@ -3699,6 +3689,15 @@
 		#banner p {
 			color: rgba(255, 255, 255, 0.65);
 			font-size: 1.5em;
+			/* Careful, this breaks the word wherever it is without a hyphen */
+	 		overflow-wrap: break-word;
+	 		word-wrap: break-word;
+
+	 		/* Adds a hyphen where the word breaks */
+	 		-webkit-hyphens: auto;
+	  		-ms-hyphens: auto;
+	 		-moz-hyphens: auto;
+	 		hyphens: auto;
 		}
 
 		#banner video {
