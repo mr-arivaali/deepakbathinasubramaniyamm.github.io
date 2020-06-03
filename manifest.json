@@ -3,6 +3,6 @@
 	"description" : "Education is the face of globalization, while Cyber Security is the face of the evolving Information Age. Hence our motto is to provide Cyber Security Training, Resources, and Acknowledgements for free. Learners can learn from the videos and click on the link in the description to take up a small quiz. Once you have cleared the quiz you will receive a letter of acknowledgement through email within 24 hours.",
 	"display" : "fullscreen",
 	"orientation" : "portrait",
-	"short_name" : "SAYT"
 	"start_url" : "https://stensoftacademy.github.io/"
+	"short_name" : "SAYT"
 }
