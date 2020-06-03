@@ -3345,6 +3345,15 @@
 			font-size: 1.25em;
 			font-weight: 300;
 			margin: 0;
+			
+			overflow-wrap: break-word;
+  			word-wrap: break-word;
+
+ 			 /* Adds a hyphen where the word breaks */
+  			-webkit-hyphens: auto;
+  			-ms-hyphens: auto;
+  			-moz-hyphens: auto;
+ 			 hyphens: auto;
 		}
 
 		.video .link {
@@ -3672,6 +3681,15 @@
 		#banner p {
 			color: rgba(255, 255, 255, 0.65);
 			font-size: 1.5em;
+						
+			overflow-wrap: break-word;
+  			word-wrap: break-word;
+
+ 			 /* Adds a hyphen where the word breaks */
+  			-webkit-hyphens: auto;
+  			-ms-hyphens: auto;
+  			-moz-hyphens: auto;
+ 			 hyphens: auto;
 		}
 
 		#banner video {
