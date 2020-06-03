@@ -10,8 +10,7 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, 
-, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -20,7 +19,7 @@
 		vertical-align: baseline;
 	}
 
-	article, aside, details, figcaption, figure, , header, hgroup, menu, nav, section {
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
 
@@ -57,7 +56,7 @@
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
-	
+
 /* Containers */
 
 	.container {
@@ -110,7 +109,6 @@
 		.container {
 			width: 80em;
 		}
-
 
 	}
 
@@ -3343,16 +3341,6 @@
 
 		.video .caption {
 			color: #c0c5c9;
-			/* Careful, this breaks the word wherever it is without a hyphen */
-	 		overflow-wrap: break-word;
-	 		word-wrap: break-word;
-
-	 		/* Adds a hyphen where the word breaks */
-	 		-webkit-hyphens: auto;
-	  		-ms-hyphens: auto;
-	 		-moz-hyphens: auto;
-	 		hyphens: auto;
-
 			padding: 1.5em;
 			font-size: 1.25em;
 			font-weight: 300;
@@ -3674,11 +3662,6 @@
 			opacity: 1;
 			position: relative;
 			z-index: 2;
-			color: #c0c5c9;
-			padding: 1.5em;
-			font-size: 1.25em;
-			font-weight: 300;
-			margin: 0;
 		}
 
 		#banner h1 {
@@ -3689,14 +3672,6 @@
 		#banner p {
 			color: rgba(255, 255, 255, 0.65);
 			font-size: 1.5em;
-
-			/* Careful, this breaks the word wherever it is without a hyphen */
-	 		overflow-wrap: break-word;
-	 		word-wrap: break-word;
-	 		-webkit-hyphens: auto;
-	  		-ms-hyphens: auto;
-	 		-moz-hyphens: auto;
-	 		hyphens: auto;
 		}
 
 		#banner video {
